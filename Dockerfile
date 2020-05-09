@@ -75,7 +75,7 @@ COPY . .
 RUN apt-get update \
     && apt-get install -y --no-install-recommends dos2unix \
     && rm -rf /var/lib/apt/lists/* \
-    && DreamMaker -max_errors 0 beestation.dme && dos2unix tools/deploy.sh && tools/deploy.sh /deploy
+    && DreamMaker -max_errors 0 monkeystation.dme && dos2unix tools/deploy.sh && tools/deploy.sh /deploy
 
 FROM dm_base
 
@@ -103,4 +103,4 @@ RUN ln -s /beestation/libBSQL.so /root/.byond/bin/libBSQL.so
 
 VOLUME [ "/beestation/config", "/beestation/data" ]
 
-ENTRYPOINT [ "DreamDaemon", "beestation.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]
+ENTRYPOINT [ "DreamDaemon", "monkeystation.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]

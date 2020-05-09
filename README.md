@@ -1,7 +1,7 @@
 <h1 align="center">Monkey Station [Bee Codebase]</h1>
 
 
-![Build Status](https://travis-ci.com/TheRealUnabomber/NosChaos-Source.svg?branch=master) ![Open Issues](http://isitmaintained.com/badge/open/TheRealUnabomber/Monkey-Station.svg) ![Resolution Status](http://isitmaintained.com/badge/resolution/TheRealUnabomber/Monkey-Station.svg)
+![Build Status](https://travis-ci.com/MonkeyStation13/monkeystation.svg?branch=master) ![Open Issues](http://isitmaintained.com/badge/resolution/MonkeyStation13/MonkeyStation.svg) ![Resolution Status](http://isitmaintained.com/badge/resolution/MonkeyStation13/MonkeyStation.svg)
 
 **Website:** Working on it
 

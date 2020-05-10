@@ -1,7 +1,38 @@
 <!-- Most valid html will work in here, excluding images. -->
-
-<h1>Welcome to BeeStation!</h1>
-
-<br><b>Website: 	<a href="http://beestation13.com">Click Me!</a></b>
-<br><b>Discord: 	<a href="https://discord.gg/z9ttAvA">Click Me!</a></b>
-<br><b>Donate:	<a href="https://www.patreon.com/user?u=10639001">Click Me!</a></b>
+<h1>Welcome to Monkey station!</h1>
+<p><br /><strong>Discord: <a href="https://discord.gg/n9sfFuu">Click Here!</a></strong> <br /><strong>God Hates Shrimp (FOR REAL): <a href="http://www.godhatesshrimp.com/">Check if you do not believe that</a></strong><br /> <br /><strong>This server is under development, please stay tuned with our Discord Server and give us some new ideas! Currently searching for active Admins that do have experience!</strong></p>
+<h3><strong>Please find below the only rules that we are using right now:<br /></strong></h3>
+<ul>
+<li><strong>Rule 0: Don't be a dick Practice common sense while consulting these rules. </strong></li>
+</ul>
+<p style="text-align: left; padding-left: 60px;">The rules are guidelines for the server and should be interpreted to suit the situation at hand, not manipulated to suit your needs. Attempting to Rules-Lawyer an Administrator is never a good idea, and likely to result in harsher punishment. The Server Staff retains the right to issue Permanent Bans to players that they consider to be a consistent net negative to the community and server, without the need for any specific Rule to be broken.</p>
+<ul>
+<li><strong>Rule 1: Listen to the Admins The Staff Members have the final say on the server. </strong></li>
+</ul>
+<p style="padding-left: 60px;">If you are banned from the server, you can create a ticket in discord to talk about your ban and maybe get unbanned If you do not get a response, the Administrators are either busy with other matters or not available. If no Administrators are available, you may take your request to the Discord if needed.</p>
+<ul>
+<li><strong>Rule 2: Don't use the server to advertise players for other interests </strong></li>
+</ul>
+<p style="padding-left: 60px;">Do not use the server to advertise other servers or for other commercial interests. An exception may be made if you seek Administrator approval. Administrators can ban you instantly.</p>
+<nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" data-booted="true">
+<div class="v-toolbar__content">
+<ul>
+<li class="v-toolbar__title"><strong>Rule 3: Maintaining a Respectful Environment</strong></li>
+</ul>
+<div class="spacer" style="padding-left: 60px;">Under no circumstances is OOC harassment of another player allowed, regardless of who the victim is. Repeated IC harassment with little to no reason can be considered metagrudging.<br />Do not put down, invalidate, berate and/or otherwise insult any player, community or server. While anger, frustration, and abuse may be quite suitable ICly, you may be asked to stop by an Administrator if it is seen as over the top, spamming, or without good cause. You can easily enjoy your time on a specific server without having to share your disinterest or plain criticism of other ones.</div>
+<ul>
+<li class="spacer"><strong>Rule 4: Play Antagonists Responsibly</strong></li>
+</ul>
+<p style="padding-left: 60px;">Medium role play is expected and enforced. Contrary to how it is painted on other servers, medium role play is defined as enough role play to reach full immersion. This looks like people doing the jobs they signed up for, people being able to do the jobs they signed up for, and acting within the bounds of the universe the basic lore has established. Furthermore this rule is also applies to antagonists, meaning that you must never actively work against your objectives, failing them is fine so long as you didn’t fail them because you wanted to murderbone the station and or turn the mime into a cat girl, essentially commit antagonistic actions with objective oriented intent. On a final note, fourth wall breaks are non tolerable as they break the medium role play immersion.</p>
+<nav class="v-toolbar v-toolbar--card theme--dark purple darken-4" style="display: inline !important;" data-booted="true">
+<div class="v-toolbar__content" style="display: inline !important;">
+<ul>
+<li class="spacer"><strong>Rule 5: Space law</strong></li>
+</ul>
+<p style="padding-left: 60px;">Space law applied is the following: <a href="https://wiki.beestation13.com/view/Space_Law">Click here for the redirection</a><br /><span style="text-decoration: underline;"><strong>Please keep in mind that every Security and Command must know those rules</strong></span>, administrators will act based on those rules.</p>
+<p><br /><span style="text-decoration: underline;">PLEASE REMEMBER THAT THIS IS A MEDIUM RP SERVER</span>! To contact the Admins just AHELP(Under Admin TAB or press F1) even if none of them are online, a discord bot will advice and we will try to get back to you! Now have a nice round and stay safe!</p>
+</div>
+</nav>
+<div class="v-card__text">&nbsp;</div>
+</div>
+</nav>

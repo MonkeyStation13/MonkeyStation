@@ -70,12 +70,12 @@ HUMANS_NEED_SURNAMES
 
 
 ## ALERT LEVELS ###
-ALERT_GREEN All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced.
-ALERT_BLUE_UPTO The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted.
-ALERT_BLUE_DOWNTO The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed.
-ALERT_RED_UPTO There is an immediate serious threat to the station. Security may have weapons unholstered at all times. Random searches are allowed and advised. Additionally, access requirements on some doors have been lifted.
-ALERT_RED_DOWNTO The station's destruction has been averted. There is still however an immediate serious threat to the station. Security may have weapons unholstered at all times, random searches are allowed and advised.
-ALERT_DELTA Destruction of the station is imminent. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.
+ALERT_GREEN All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced. Free the monkeys.
+ALERT_BLUE_UPTO The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted but not on monkeys.
+ALERT_BLUE_DOWNTO The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed but not on monkeys.
+ALERT_RED_UPTO There is an immediate serious threat to the station. Security may have weapons unholstered at all times. Random searches are allowed and advised. Additionally, access requirements on some doors have been lifted. Please take care of the monkeys.
+ALERT_RED_DOWNTO The station's destruction has been averted. There is still however an immediate serious threat to the station. Security may have weapons unholstered at all times, random searches are allowed and advised. Please take care of the monkeys.
+ALERT_DELTA Destruction of the station is imminent. All crew are instructed to obey all instructions given by heads of staff and the monkeys. Any violations of these orders can be punished by death. This is not a drill.
 
 
 
@@ -100,7 +100,7 @@ PROBABILITY CLOCKWORK_CULT 3
 PROBABILITY GANG 3
 PROBABILITY WIZARD 2
 PROBABILITY CLOWNOPS 2
-PROBABILITY MONKEY 1
+PROBABILITY MONKEY 8
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
 PROBABILITY SECRET_EXTENDED 0
@@ -164,7 +164,7 @@ MIDROUND_ANTAG WIZARD
 #MIN_POP TRAITORBRO 0
 #MAX_POP TRAITORBRO -1
 
-#MIN_POP TRAITORCHAN 15
+#MIN_POP TRAITORCHAN 10
 #MAX_POP TRAITORCHAN -1
 
 #MIN_POP DOUBLE_AGENTS 25
@@ -185,10 +185,10 @@ MIDROUND_ANTAG WIZARD
 #MIN_POP CHANGELING 15
 #MAX_POP CHANGELING -1
 
-#MIN_POP WIZARD 20
+#MIN_POP WIZARD 5
 #MAX_POP WIZARD -1
 
-#MIN_POP MONKEY 20
+#MIN_POP MONKEY 5
 #MAX_POP MONKEY -1
 
 #MIN_POP METEOR 0
@@ -207,7 +207,7 @@ MIDROUND_ANTAG WIZARD
 
 
 ## The amount of time it takes for the emergency shuttle to be called, from round start.
-SHUTTLE_REFUEL_DELAY 12000
+SHUTTLE_REFUEL_DELAY 1200
 
 ## Variables calculate how number of antagonists will scale to population.
 ## Used as (Antagonists = Population / Coeff)
@@ -299,7 +299,7 @@ ROUNDSTART_AWAY
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 ## 600 is one minute.
-GATEWAY_DELAY 18000
+GATEWAY_DELAY 600
 
 
 ## ACCESS ###
@@ -322,7 +322,7 @@ ASSISTANTS_HAVE_MAINT_ACCESS
 SECURITY_HAS_MAINT_ACCESS
 
 ## Uncomment to give everyone maint access.
-#EVERYONE_HAS_MAINT_ACCESS
+EVERYONE_HAS_MAINT_ACCESS
 
 ## Comment this out this to make security officers spawn in departmental security posts
 SEC_START_BRIG
@@ -444,7 +444,6 @@ ROUNDSTART_RACES ipc
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
-ROUNDSTART_RACES apid
 #ROUNDSTART_RACES jelly
 #ROUNDSTART_RACES golem
 #ROUNDSTART_RACES adamantine
@@ -480,7 +479,7 @@ OVERFLOW_CAP -1
 #STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ## Midround Antag (aka Mulligan antag) config options ###
 
@@ -572,4 +571,4 @@ MAX_CHICKENS 100
 MAX_SLIMES 100
 
 ## Uncomment to restrict suiciding. Adds an additional confirmation dialogue, additional logging, and prevents suicide within the first 15 minutes of the round.
-#RESTRICTED_SUICIDE
+RESTRICTED_SUICIDE

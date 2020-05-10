@@ -3,14 +3,12 @@ import requests
 import yaml
 import html
 
-"""
-This is a Flask webpage designed to be called from byond with Export, which then
-triggers webhooks for discord.
 
-It needs to be filled out correctly to work, duh
+#This is a Flask webpage designed to be called from byond with Export, which then
+#triggers webhooks for discord.
+#
+#To run the script just do C:\Users\Administrator\Desktop\Monkey Station\tools\discord>python server.py
 
-Also this was made by CthulhuOnIce
-"""
 
 valid = "<>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#[]@!$&'()*+,;= "
 

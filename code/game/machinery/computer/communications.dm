@@ -284,7 +284,7 @@
 					return
 				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, 0)
 				CentCom_announce(input, usr)
-				to_chat(usr, "<span class='notice'>Message transmitted to Central Command.</span>")
+				to_chat(usr, "<span class='notice'>Message transmitted to Monkey Central Command.</span>")
 				usr.log_talk(input, LOG_SAY, tag="CentCom announcement")
 				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.real_name]</span> has messaged CentCom, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.</span>", usr)
 				CM.lastTimeUsed = world.time

@@ -331,22 +331,22 @@
 
 //Centcom
 /obj/item/clothing/head/beret/cccaptain
-	name = "central command captain beret"
-	desc = "A pure white beret with a Captain insignia of Central Command."
+	name = "monkey central command captain beret"
+	desc = "A pure white beret with a Captain insignia of Monkey Central Command."
 	icon_state = "beret_centcom_captain"
 	armor = list(melee = 80, bullet = 80, laser = 80, energy = 80, bomb = 80, bio = 80, rad = 80, fire = 80, acid = 80)
 	strip_delay = 120
 
 /obj/item/clothing/head/beret/ccofficer
-	name = "central command officer beret"
-	desc = "A black Central Command Officer beret with matching insignia."
+	name = "monkey central command officer beret"
+	desc = "A black Monkey Central Command Officer beret with matching insignia."
 	icon_state = "beret_centcom_officer"
 	armor = list(melee = 80, bullet = 80, laser = 80, energy = 80, bomb = 80, bio = 80, rad = 80, fire = 80, acid = 80)
 	strip_delay = 120
 
 /obj/item/clothing/head/beret/ccofficernavy
-	name = "central command naval officer beret"
-	desc = "A Navy beret commonly worn by Central Command Naval Officers."
+	name = "monkey central command naval officer beret"
+	desc = "A Navy beret commonly worn by Monkey Central Command Naval Officers."
 	icon_state = "beret_centcom_officer_navy"
 	armor = list(melee = 80, bullet = 80, laser = 80, energy = 80, bomb = 80, bio = 80, rad = 80, fire = 80, acid = 80)
 	strip_delay = 120

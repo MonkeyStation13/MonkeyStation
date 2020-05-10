@@ -45,7 +45,7 @@
 
 /datum/bounty/item/mining/bone_dagger
 	name = "Bone Daggers"
-	description = "Central Command's canteen is undergoing budget cuts. Ship over some bone daggers so our Chef can keep working."
+	description = "Monkey Central Command's canteen is undergoing budget cuts. Ship over some bone daggers so our Chef can keep working."
 	reward = 5000
 	required_count = 3
 	wanted_types = list(/obj/item/kitchen/knife/combat/bone)

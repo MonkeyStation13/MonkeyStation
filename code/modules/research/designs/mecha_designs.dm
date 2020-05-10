@@ -210,7 +210,7 @@
 
 /datum/design/mech_grenade_launcher
 	name = "Exosuit Weapon (SGL-6 Grenade Launcher)"
-	desc = "Allows for the construction of SGL-6 Grenade Launcher."
+	desc = "Allows for the construction of SGL-6 Grenade Launcher. Unabomber's favorite."
 	id = "mech_grenade_launcher"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/flashbang

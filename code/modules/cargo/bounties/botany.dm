@@ -6,7 +6,7 @@
 
 /datum/bounty/item/botany/New()
 	..()
-	description = "Central Command's head chef is looking to prepare a fine [foodtype] with [name]. [bonus_desc]"
+	description = "Monkey Central Command's head chef is looking to prepare a fine [foodtype] with [name]. [bonus_desc]"
 	reward += multiplier * 1000
 	required_count = rand(5, 10)
 
@@ -64,7 +64,7 @@
 	multiplier = 4 //hush money
 	bonus_desc = "Do not mention this shipment to security."
 	foodtype = "batch of \"muffins\""
-	
+
 /datum/bounty/item/botany/cannabis_white
 	name = "Lifeweed Leaves"
 	wanted_types = list(/obj/item/reagent_containers/food/snacks/grown/cannabis/white)

@@ -58,7 +58,7 @@
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(istype(H.ears, /obj/item/radio/headset))
-			msg = "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from Central Command.  Message as follows: <span class='bold'>Item request received. Your package is inbound, please stand back from the landing site.</span> Message ends.\""
+			msg = "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from Monkey Central Command.  Message as follows: <span class='bold'>Item request received. Your package is inbound, please stand back from the landing site.</span> Message ends.\""
 	to_chat(M, msg)
 
 	new /obj/effect/DPtarget(get_turf(src), pod)
@@ -111,7 +111,7 @@
 
 /obj/item/storage/box/hero/ghostbuster/PopulateContents()
 	new /obj/item/clothing/glasses/welding/ghostbuster(src)
-	new /obj/item/storage/belt/fannypack/bustin(src)	
+	new /obj/item/storage/belt/fannypack/bustin(src)
 	new /obj/item/clothing/gloves/color/black(src)
 	new /obj/item/clothing/shoes/jackboots(src)
 	new /obj/item/clothing/under/color/khaki/buster(src)
@@ -186,7 +186,7 @@
 	if(isliving(target))
 		var/mob/living/M = target
 		M.visible_message("<span class='warning'>[user] starts pulling [src] over [M]'s head!</span>", "<span class='userdanger'>[user] starts pulling [src] over your head!</span>")
-		if(do_after_mob(user, M, max(M.health + 100, 100)))//+100 because anyone in crit will be instantly kidnapped otherwise. 
+		if(do_after_mob(user, M, max(M.health + 100, 100)))//+100 because anyone in crit will be instantly kidnapped otherwise.
 			if(M == user)
 				M.drop_all_held_items()
 				if(HAS_TRAIT(src, TRAIT_NODROP))

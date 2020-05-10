@@ -82,7 +82,7 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 					to_chat(C, "<font color='[GLOB.OOC_COLOR]'><b><span class='prefix'>OOC:</span> <EM>[keyname]:</EM> <span class='message linkify'>[msg]</span></b></font>")
 				else
 					to_chat(C, "<span class='ooc'><span class='prefix'>OOC:</span> <EM>[keyname]:</EM> <span class='message linkify'>[msg]</span></span>")
-	// beestation, send to discord
+	// monkeystation, send to discord
 	if(holder?.fakekey)
 		discordsendmsg("ooc", "**[holder.fakekey]:** [msg]")
 	else
@@ -254,7 +254,7 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 	chatOutput.start()
 	chatOutput.load()
 	alert(src, "Your chat has been force recreated. If this still hasnt fixed issues, please make an issue report, with your BYOND version, Windows version, and IE Version.", "Done", "Ok")
-				
+
 /client/verb/motd()
 	set name = "MOTD"
 	set category = "OOC"

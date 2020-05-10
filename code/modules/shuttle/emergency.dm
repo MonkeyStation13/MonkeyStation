@@ -295,7 +295,7 @@
 			has_xenos = TRUE
 
 	return has_xenos
-	
+
 /obj/docking_port/mobile/emergency/proc/ShuttleDBStuff()
 	set waitfor = FALSE
 	if(!SSdbcore.Connect())
@@ -384,7 +384,7 @@
 				mode = SHUTTLE_ESCAPE
 				launch_status = ENDGAME_LAUNCHED
 				setTimer(SSshuttle.emergencyEscapeTime * engine_coeff)
-				priority_announce("The Emergency Shuttle has left the station. Estimate [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority")
+				priority_announce("The Emergency Shuttle has left the station. Estimate [timeLeft(600)] minutes until the shuttle docks at Monkey Central Command.", null, null, "Priority")
 
 		if(SHUTTLE_STRANDED)
 			SSshuttle.checkHostileEnvironment()
@@ -436,7 +436,7 @@
 	mode = SHUTTLE_ESCAPE
 	launch_status = ENDGAME_LAUNCHED
 	setTimer(SSshuttle.emergencyEscapeTime)
-	priority_announce("The Emergency Shuttle preparing for direct jump. Estimate [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority")
+	priority_announce("The Emergency Shuttle preparing for direct jump. Estimate [timeLeft(600)] minutes until the shuttle docks at Monkey Central Command.", null, null, "Priority")
 
 
 /obj/docking_port/mobile/pod

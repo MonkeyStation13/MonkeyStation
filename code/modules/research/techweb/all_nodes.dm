@@ -921,7 +921,7 @@
 /datum/techweb_node/mech_grenade_launcher
 	id = "mech_grenade_launcher"
 	display_name = "Exosuit Weapon (SGL-6 Grenade Launcher)"
-	description = "An advanced piece of mech weaponry"
+	description = "An advanced piece of mech weaponry. Unabomber's favorite."
 	prereq_ids = list("explosive_weapons")
 	design_ids = list("mech_grenade_launcher")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)

@@ -84,7 +84,7 @@
 	priority_announce("Massive [Gibberish("bluespace", 100)] anomaly detected on all frequencies. All crew are directed to \
 	@!$, [text2ratvar("PURGE ALL UNTRUTHS")] <&. the anomalies and destroy their source to prevent further damage to corporate property. This is \
 	not a drill.[grace_period ? " Estimated time of appearance: [grace_period] seconds. Use this time to prepare for an attack on [station_name()]." : ""]", \
-	"Central Command Higher Dimensional Affairs", 'sound/magic/clockwork/ark_activation.ogg')
+	"Monkey Central Command Higher Dimensional Affairs", 'sound/magic/clockwork/ark_activation.ogg')
 	set_security_level("delta")
 	for(var/V in SSticker.mode.servants_of_ratvar)
 		var/datum/mind/M = V

@@ -39,14 +39,14 @@
 
 /datum/bounty/item/assistant/toolbox
 	name = "Toolboxes"
-	description = "There's an absence of robustness at Central Command. Hurry up and ship some toolboxes as a solution."
+	description = "There's an absence of robustness at Monkey Central Command. Hurry up and ship some toolboxes as a solution."
 	reward = 2000
 	required_count = 6
 	wanted_types = list(/obj/item/storage/toolbox)
 
 /datum/bounty/item/assistant/statue
 	name = "Statue"
-	description = "Central Command would like to commision an artsy statue for the lobby. Ship one out, when possible."
+	description = "Monkey Central Command would like to commision an artsy statue for the lobby. Ship one out, when possible."
 	reward = 2000
 	wanted_types = list(/obj/structure/statue)
 
@@ -92,7 +92,7 @@
 
 /datum/bounty/item/assistant/briefcase
 	name = "Briefcase"
-	description = "Central Command will be holding a business convention this year. Ship a few briefcases in support."
+	description = "Monkey Central Command will be holding a business convention this year. Ship a few briefcases in support."
 	reward = 2500
 	required_count = 5
 	wanted_types = list(/obj/item/storage/briefcase, /obj/item/storage/secure/briefcase)
@@ -147,27 +147,27 @@
 
 /datum/bounty/item/assistant/potted_plants
 	name = "Potted Plants"
-	description = "Central Command is looking to commission a new BirdBoat-class station. You've been ordered to supply the potted plants."
+	description = "Monkey Central Command is looking to commission a new BirdBoat-class station. You've been ordered to supply the potted plants."
 	reward = 2000
 	required_count = 8
 	wanted_types = list(/obj/item/twohanded/required/kirbyplants)
 
 /datum/bounty/item/assistant/earmuffs
 	name = "Earmuffs"
-	description = "Central Command is getting tired of your station's messages. They've ordered that you ship some earmuffs to lessen the annoyance."
+	description = "Monkey Central Command is getting tired of your station's messages. They've ordered that you ship some earmuffs to lessen the annoyance."
 	reward = 1000
 	wanted_types = list(/obj/item/clothing/ears/earmuffs)
 
 /datum/bounty/item/assistant/handcuffs
 	name = "Handcuffs"
-	description = "A large influx of escaped convicts have arrived at Central Command. Now is the perfect time to ship out spare handcuffs (or restraints)."
+	description = "A large influx of escaped convicts have arrived at Monkey Central Command. Now is the perfect time to ship out spare handcuffs (or restraints)."
 	reward = 1000
 	required_count = 5
 	wanted_types = list(/obj/item/restraints/handcuffs)
 
 /datum/bounty/item/assistant/monkey_cubes
 	name = "Monkey Cubes"
-	description = "Due to a recent genetics accident, Central Command is in serious need of monkeys. Your mission is to ship monkey cubes."
+	description = "Due to a recent genetics accident, Monkey Central Command is in serious need of monkeys. Your mission is to ship monkey cubes."
 	reward = 2000
 	required_count = 3
 	wanted_types = list(/obj/item/reagent_containers/food/snacks/monkeycube)
@@ -187,7 +187,7 @@
 
 /datum/bounty/item/assistant/bonfire
 	name = "Lit Bonfire"
-	description = "Space heaters are malfunctioning and the cargo crew of Central Command is starting to feel cold. Ship a lit bonfire to warm them up."
+	description = "Space heaters are malfunctioning and the cargo crew of Monkey Central Command is starting to feel cold. Ship a lit bonfire to warm them up."
 	reward = 5000
 	wanted_types = list(/obj/structure/bonfire)
 

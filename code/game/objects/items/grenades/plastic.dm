@@ -1,6 +1,6 @@
 /obj/item/grenade/plastic
 	name = "plastic explosive"
-	desc = "Used to put holes in specific areas without too much extra hole."
+	desc = "Used to put holes in specific areas without too much extra hole. Unabomber's favorite."
 	icon_state = "plastic-explosive0"
 	item_state = "plastic-explosive"
 	lefthand_file = 'icons/mob/inhands/weapons/bombs_lefthand.dmi'
@@ -128,7 +128,7 @@
 
 		target.add_overlay(plastic_overlay, TRUE)
 		if(!nadeassembly)
-			to_chat(user, "<span class='notice'>You plant the bomb. Timer counting down from [det_time].</span>")
+			to_chat(user, "<span class='notice'>You plant the bomb. Timer counting down from [det_time]. Unabomber Liked that.</span>")
 			addtimer(CALLBACK(src, .proc/prime), det_time*10)
 		else
 			qdel(src)	//How?
@@ -172,7 +172,7 @@
 
 /obj/item/grenade/plastic/c4
 	name = "C4"
-	desc = "Used to put holes in specific areas without too much extra hole. A saboteur's favorite."
+	desc = "Used to put holes in specific areas without too much extra hole. Unabomber's favorite."
 	gender = PLURAL
 	var/open_panel = 0
 	can_attach_mob = TRUE
@@ -231,7 +231,7 @@
 
 /obj/item/grenade/plastic/x4
 	name = "X4"
-	desc = "A shaped high-explosive breaching charge. Designed to ensure user safety and wall nonsafety."
+	desc = "A shaped high-explosive breaching charge. Designed to ensure user safety and wall nonsafety. Unabomber's favorite."
 	icon_state = "plasticx40"
 	item_state = "plasticx4"
 	gender = PLURAL

@@ -213,7 +213,7 @@
 			to_chat(user, "<span class='notice'>The provided account has been linked to this ID card.</span>")
 
 			return TRUE
-			
+
 	to_chat(user, "<span class='warning'>The account ID number provided is invalid.</span>")
 	return
 
@@ -390,7 +390,7 @@ update_label("John Doe", "Clowny")
 			forged = TRUE
 			to_chat(user, "<span class='notice'>You successfully forge the ID card.</span>")
 			log_game("[key_name(user)] has forged \the [initial(name)] with name \"[registered_name]\" and occupation \"[assignment]\".")
-			
+
 			// First time use automatically sets the account id to the user.
 			if (first_use && !registered_account)
 				if(ishuman(user))
@@ -447,9 +447,9 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
-	desc = "A shimmering Central Command ID card. Simply seeing this is illegal for the majority of the crew."
+	desc = "A shimmering Monkey Central Command ID card. Simply seeing this is illegal for the majority of the crew."
 	icon_state = "centcom"
-	registered_name = "Central Command"
+	registered_name = "Monkey Central Command"
 	assignment = "General"
 
 /obj/item/card/id/centcom/Initialize()

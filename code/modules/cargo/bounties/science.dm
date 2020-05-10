@@ -37,13 +37,13 @@
 
 /datum/bounty/item/science/cryostasis_beaker
 	name = "Cryostasis Beaker"
-	description = "Chemists at Central Command have discovered a new chemical that can only be held in cryostasis beakers. The only problem is they don't have any! Rectify this to receive payment."
+	description = "Chemists at Monkey Central Command have discovered a new chemical that can only be held in cryostasis beakers. The only problem is they don't have any! Rectify this to receive payment."
 	reward = 10000
 	wanted_types = list(/obj/item/reagent_containers/glass/beaker/noreact)
 
 /datum/bounty/item/science/diamond_drill
 	name = "Diamond Mining Drill"
-	description = "Central Command is willing to pay three months salary in exchange for one diamond mining drill."
+	description = "Monkey Central Command is willing to pay three months salary in exchange for one diamond mining drill."
 	reward = 15000
 	wanted_types = list(/obj/item/pickaxe/drill/diamonddrill, /obj/item/mecha_parts/mecha_equipment/drill/diamonddrill)
 

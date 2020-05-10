@@ -20,7 +20,7 @@
 /datum/techweb_node/error_node
 	id = "ERROR"
 	display_name = "ERROR"
-	description = "This usually means something in the database has corrupted. If it doesn't go away automatically, inform Central Command for their techs to fix it ASAP(tm)"
+	description = "This usually means something in the database has corrupted. If it doesn't go away automatically, inform Monkey Central Command for their techs to fix it ASAP(tm)"
 
 /datum/techweb_node/proc/Initialize()
 	//Make lists associative for lookup
@@ -97,4 +97,4 @@
 	return techweb_point_display_generic(get_price(TN))
 
 /datum/techweb_node/proc/on_research() //new proc, not currently in file
-    return 
+    return

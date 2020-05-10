@@ -239,7 +239,7 @@
 				src.active1 = null
 				src.active2 = null
 				src.authenticated = 1
-				src.rank = "Central Command"
+				src.rank = "Monkey Central Command"
 				src.screen = 1
 			else if(istype(src.scan, /obj/item/card/id))
 				src.active1 = null

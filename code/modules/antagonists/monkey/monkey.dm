@@ -203,7 +203,7 @@
 	switch(get_result())
 		if(MONKEYS_ESCAPED)
 			parts += "<span class='greentext big'><B>Monkey Major Victory!</B></span>"
-			parts += "<span class='greentext'><B>Central Command and [station_name()] were taken over by the monkeys! Ook ook!</B></span>"
+			parts += "<span class='greentext'><B>Monkey Central Command and [station_name()] were taken over by the monkeys! Ook ook!</B></span>"
 		if(MONKEYS_LIVED)
 			parts += "<FONT size = 3><B>Monkey Minor Victory!</B></FONT>"
 			parts += "<span class='greentext'><B>[station_name()] was taken over by the monkeys! Ook ook!</B></span>"

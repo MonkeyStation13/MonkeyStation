@@ -77,7 +77,7 @@
 
 	log_directed_talk(mob, H, input, LOG_ADMIN, "reply")
 	message_admins("[key_name_admin(src)] replied to [key_name_admin(H)]'s [sender] message with: \"[input]\"")
-	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == "Syndicate" ? "your benefactor" : "Central Command"].  Message as follows[sender == "Syndicate" ? ", agent." : ":"] <span class='bold'>[input].</span> Message ends.\"")
+	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == "Syndicate" ? "your benefactor" : "Monkey Central Command"].  Message as follows[sender == "Syndicate" ? ", agent." : ":"] <span class='bold'>[input].</span> Message ends.\"")
 
 	SSblackbox.record_feedback("tally", "admin_verb", 1, "Headset Message") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
@@ -582,12 +582,12 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	if(!check_rights(R_ADMIN))
 		return
 
-	var/input = input(usr, "Please input a new name for Central Command.", "What?", "") as text|null
+	var/input = input(usr, "Please input a new name for Monkey Central Command.", "What?", "") as text|null
 	if(!input)
 		return
 	change_command_name(input)
-	message_admins("[key_name_admin(src)] has changed Central Command's name to [input]")
-	log_admin("[key_name(src)] has changed the Central Command name to: [input]")
+	message_admins("[key_name_admin(src)] has changed Monkey Central Command's name to [input]")
+	log_admin("[key_name(src)] has changed the Monkey Central Command name to: [input]")
 
 /client/proc/cmd_admin_delete(atom/A as obj|mob|turf in world)
 	set category = "Admin"

@@ -1,7 +1,7 @@
 
 /obj/vehicle/ridden/secway
 	name = "secway"
-	desc = "A brave security cyborg gave its life to help you look like a complete tool."
+	desc = "A brave security cyborg gave its life to help you look like a complete tool. Requested by Scruffy Incarnate."
 	icon_state = "secway"
 	max_integrity = 100
 	armor = list("melee" = 20, "bullet" = 15, "laser" = 10, "energy" = 0, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
@@ -11,7 +11,7 @@
 /obj/vehicle/ridden/secway/Initialize()
 	. = ..()
 	var/datum/component/riding/D = LoadComponent(/datum/component/riding)
-	D.vehicle_move_delay = 1.5
+	D.vehicle_move_delay = 1
 	D.set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(0, 4), TEXT_SOUTH = list(0, 4), TEXT_EAST = list(0, 4), TEXT_WEST = list( 0, 4)))
 
 /obj/vehicle/ridden/secway/obj_break()

@@ -1,0 +1,19 @@
+Double click on the "youtube -dl" folder and then open the file -> after that place your folder inside the Download folder (each windows has one)
+
+Now, enter your command prompt and type cd Download/youtube -dl and press enter
+
+After that just press the command youtube-dl --get-url [YOUR LINK YOUTUBE]
+
+you'll get somenthing like 
+
+Command to get youtube dl link -> youtube-dl --get-url
+
+You will get somenthing like 
+
+C:\Users\[YOUR USER]\Desktop\Audio\youtube -dl>youtube-dl --get-url https://www.youtube.com/watch?v=-qstIEHDVRg
+https://r2---sn-45nufxc-4jve.googlevideo.com/videoplayback?expire=1588461722&ei=OqytXtLIDtPu7gOmrLPwBw&ip=93.48.242.200&id=o-ANhMV2oVtarlKabMGy-E3AY5yKd3msRGBu290W_ICAbf&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=gy&mm=31%2C26&mn=sn-45nufxc-4jve%2Csn-hgn7rn7r&ms=au%2Conr&mv=m&mvi=1&pl=21&initcwndbps=850000&vprv=1&mime=video%2Fmp4&gir=yes&clen=56425502&dur=239.320&lmt=1572133690068241&mt=1588440027&fvip=2&keepalive=yes&beids=9466585&c=WEB&txp=5535432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=ALrAebAwRgIhAK8CbueVAA7VSGJzdsYII4e_UPYhlxT1H4Zbwcz54n_2AiEAxvwL1ka21AlmZHgPDmsfjb8g9lcArcjNWQtHyZYG3ls%3D&sig=AJpPlLswRQIhANxhqU-_bizJbzukYwMgzeKDOxyiyh1rP7RPJDDSMvkjAiBxLqNNASrlrr_avLhAkE-3KTthGXEyjnu335cwN3NO8Q==&ratebypass=yes
+https://r2---sn-45nufxc-4jve.googlevideo.com/videoplayback?expire=1588461722&ei=OqytXtLIDtPu7gOmrLPwBw&ip=93.48.242.200&id=o-ANhMV2oVtarlKabMGy-E3AY5yKd3msRGBu290W_ICAbf&itag=251&source=youtube&requiressl=yes&mh=gy&mm=31%2C26&mn=sn-45nufxc-4jve%2Csn-hgn7rn7r&ms=au%2Conr&mv=m&mvi=1&pl=21&initcwndbps=850000&vprv=1&mime=audio%2Fwebm&gir=yes&clen=3951146&dur=239.361&lmt=1572132733579576&mt=1588440027&fvip=2&keepalive=yes&beids=9466585&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=ALrAebAwRgIhAK8CbueVAA7VSGJzdsYII4e_UPYhlxT1H4Zbwcz54n_2AiEAxvwL1ka21AlmZHgPDmsfjb8g9lcArcjNWQtHyZYG3ls%3D&sig=AJpPlLswRgIhAPz-9s1_GZGeGbBHsuo8FjZElQyrZedgc8-DyE1B0UYmAiEAoQ-mtqFbavWdvvuG4ncCNk4oO2uK4xscBRzuMQp3AHs=&ratebypass=yes
+
+As you can see the links are two, chose use, process in your browser and download that
+
+After you downloaded the format .webm then convert that using this site: https://convertio.co/it/audio-converter/ in .ogg

@@ -205,18 +205,18 @@
 	config_entry_value = "http://tgstation13.org/phpBB/index.php"
 
 /datum/config_entry/string/rulesurl
-	config_entry_value = "http://www.tgstation13.org/wiki/Rules"
+	config_entry_value = "https://discord.gg/VZ8XjKe"
 
 /datum/config_entry/string/githuburl
-	config_entry_value = "https://www.github.com/tgstation/-tg-station"
+	config_entry_value = "https://github.com/MonkeyStation13/MonkeyStation"
 
 /datum/config_entry/string/issue_label
 
 /datum/config_entry/string/donateurl
-	config_entry_value = "https://www.patreon.com/user?u=10639001"
+	config_entry_value = "https://www.patreon.com/monkeystation"
 
 /datum/config_entry/string/discordurl
-	config_entry_value = "https://discord.gg/zUe34rs"
+	config_entry_value = "https://discord.gg/gWEZ2Q2"
 
 /datum/config_entry/string/roundstatsurl
 

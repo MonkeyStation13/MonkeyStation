@@ -215,3 +215,8 @@ tools/MapAtmosFixer/MapAtmosFixer/bin/*
 !/config/jukebox_music/sounds/exclude
 /config/title_music/sounds/*
 !/config/title_music/sounds/exclude
+
+/config/dbconfig.txt
+/tools/discord/config.yml
+config/dbconfig.txt
+tools/discord/config.yml

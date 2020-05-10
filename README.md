@@ -10,6 +10,7 @@
 **Wiki:** https://wiki.beestation13.com/view/Main_Page 
 
 **Patreon:** Support our hosting costs:  https://www.patreon.com/monkeystation
+
              Support our Bee Codebase and Bee Server:  https://www.patreon.com/user?u=10639001
 
 

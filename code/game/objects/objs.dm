@@ -4,6 +4,10 @@
 	speech_span = SPAN_ROBOT
 	var/obj_flags = CAN_BE_HIT
 
+
+	// obj_flags |= FLAG - Sets a flag to true
+	// obj_flags &= ~FLAG - Sets a flag to false
+
 	/// ONLY FOR MAPPING: Sets flags from a string list, handled in Initialize. Usage: set_obj_flags = "EMAGGED;!CAN_BE_HIT" to set EMAGGED and clear CAN_BE_HIT.
 	var/set_obj_flags
 

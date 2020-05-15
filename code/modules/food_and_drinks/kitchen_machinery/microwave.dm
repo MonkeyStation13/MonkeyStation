@@ -22,6 +22,7 @@
 	var/max_n_of_items = 10
 	var/efficiency = 0
 	var/datum/looping_sound/microwave/soundloop
+	var/datum/looping_sound/emagmicrowave/emagsoundloop
 	var/list/ingredients = list() // may only contain /atom/movables
 
 	var/static/radial_examine = image(icon = 'icons/mob/radial.dmi', icon_state = "radial_examine")
@@ -63,7 +64,9 @@
 	if(operating)
 		. += "<span class='notice'>\The [src] is operating.</span>"
 		return
-
+	if(obj_flags & EMAGGED)
+		. += "<span class='notice'>\The [src]'s panel looks burnt'"
+	
 	if(length(ingredients))
 		if(issilicon(user))
 			. += "<span class='notice'>\The [src] camera shows:</span>"
@@ -133,6 +136,18 @@
 			to_chat(user, "<span class='warning'>It's broken!</span>")
 			return TRUE
 		return
+
+	if(istype(O, /obj/item/card/emag))
+		if(obj_flags & EMAGGED)
+			to_chat(user, "<span class='warning'>You've already sabotaged the [src].'</span>")
+		else
+			if(prob(1))
+				to_chat(user, "<span class='notice'>You emag the fucking microwave</span>")
+			else
+				to_chat(user, "<span class='notice'>*bzzt*</span>")
+			
+			obj_flags |= EMAGGED
+	return TRUE
 
 	if(istype(O, /obj/item/reagent_containers/spray))
 		var/obj/item/reagent_containers/spray/clean_spray = O
@@ -257,7 +272,10 @@
 	operating = TRUE
 
 	set_light(1.5)
-	soundloop.start()
+	if(obj_flags & EMAGGED)
+		emagsoundloop.start()
+	else
+		soundloop.start()	
 	update_icon()
 
 /obj/machinery/microwave/proc/spark()
@@ -348,7 +366,10 @@
 
 /obj/machinery/microwave/proc/after_finish_loop()
 	set_light(0)
-	soundloop.stop()
+	if(obj_flags & EMAGGED)
+		emagsoundloop.stop()
+	else
+		soundloop.stop()
 	update_icon()
 
 #undef MICROWAVE_NORMAL

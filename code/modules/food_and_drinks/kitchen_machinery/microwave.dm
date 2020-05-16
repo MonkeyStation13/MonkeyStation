@@ -139,15 +139,15 @@
 
 	if(istype(O, /obj/item/card/emag))
 		if(obj_flags & EMAGGED)
-			to_chat(user, "<span class='warning'>You've already sabotaged the [src].'</span>")
+			to_chat(user, "<span class='warning'>You've already sabotaged \the [src].</span>")
 		else
 			if(prob(1))
-				to_chat(user, "<span class='notice'>You emag the fucking microwave</span>")
+				to_chat(user, "<span class='notice'>You emag \the fucking microwave</span>")
 			else
 				to_chat(user, "<span class='notice'>*bzzt*</span>")
 			
 			obj_flags |= EMAGGED
-	return TRUE
+		return TRUE
 
 	if(istype(O, /obj/item/reagent_containers/spray))
 		var/obj/item/reagent_containers/spray/clean_spray = O

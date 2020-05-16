@@ -51,3 +51,12 @@
 	mid_length = 10
 	end_sound = 'sound/machines/microwave/microwave-end.ogg'
 	volume = 90
+
+
+/datum/looping_sound/emagmicrowave
+	start_sound = 'sound/machines/microwave/microwave-start-loud.ogg'
+	start_length = 10
+	mid_sounds = list('sound/machines/microwave/microwave-mid1-loud.ogg'=10)
+	mid_length = 10
+	end_sound = 'sound/machines/microwave/microwave-end-loud.ogg'
+	volume = 90

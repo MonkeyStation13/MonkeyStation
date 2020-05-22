@@ -15,7 +15,7 @@ CODEMAN8926 = Admin
 Fegelein17 = Admin
 NonCancerAlias = Game Master
 SuperDork55 = Admin
-GiggaGuyFromSpaceLand = Trial Admin
-MACIEKBAKI = Trial Admin
+GiggaGuyFromSpaceLand = Admin
+MACIEKBAKI = Admin
 
 # the rest are in the db

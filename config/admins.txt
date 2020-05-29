@@ -17,5 +17,6 @@ NonCancerAlias = Game Master
 SuperDork55 = Admin
 GiggaGuyFromSpaceLand = Admin
 MACIEKBAKI = Admin
+Bobey Bill = Trial Admin
 
 # the rest are in the db

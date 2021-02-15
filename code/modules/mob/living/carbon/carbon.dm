@@ -750,7 +750,14 @@
 		return
 	if(stat != DEAD)
 		if(health <= HEALTH_THRESHOLD_DEAD && !HAS_TRAIT(src, TRAIT_NODEATH))
-			death()
+			if (perks & PERK_REVIVE)
+				// Recover all health and uncheck the revive perk flag
+				perks &= ~PERK_REVIVE
+				fully_heal()
+				to_chat(src, "<span class='notice'>You magically regain all your strength and heal all your wounds.</span>")
+				to_chat(src, "<span class='notice'>You can hear a voice in your head that says 'You need a little revive!'.</span>")
+			else
+				death()
 			return
 		if(IsUnconscious() || IsSleeping() || getOxyLoss() > 50 || (HAS_TRAIT(src, TRAIT_DEATHCOMA)) || (health <= HEALTH_THRESHOLD_FULLCRIT && !HAS_TRAIT(src, TRAIT_NOHARDCRIT)))
 			stat = UNCONSCIOUS

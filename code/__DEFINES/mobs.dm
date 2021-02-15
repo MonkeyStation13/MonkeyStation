@@ -327,3 +327,11 @@
 #define WABBAJACK     (1<<6)
 
 #define SLEEP_CHECK_DEATH(X) sleep(X); if(QDELETED(src) || stat == DEAD) return;
+
+// Perk Flags
+
+#define PERK_REVIVE				(1<<0)
+#define PERK_JUGGERNOG			(1<<1)
+#define PERK_PHD				(1<<2)
+#define PERK_STAMINUP			(1<<3)
+#define PERK_DOUBLETAP			(1<<4)
